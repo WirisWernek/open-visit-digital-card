@@ -1,0 +1,37 @@
+.profile-image{
+	border-radius: 100% !important ;
+	height: 40vw;
+}
+
+.telefone{
+	height: 16vw;
+}
+
+.whatsapp{
+	height: 15vw;
+}
+
+.email{
+	height: 16vw;
+}
+
+.download{
+	height: 15vw;
+	border-radius: 19%;
+	background-color: #38A4D5;
+}
+
+.backgroung-icon{
+
+}
+
+.button{
+	height: 15vw;
+	width: auto;
+	color: aliceblue;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+}
