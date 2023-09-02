@@ -62,6 +62,10 @@ ul{
 	animation: typing 2s steps(22), blinking 0.6s infinite step-end alternate;
 }
 
+.actionButtons{
+	margin-right: 1.8vw ;
+}
+
 @keyframes typing{
 	from{
 		width: 0;
