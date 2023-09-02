@@ -48,3 +48,25 @@ body{
 	color: #2F3435;
 	font-family: 'Fira Code', monospace;
 }
+
+.subtitle{
+	margin: auto;
+	border-right: 5px solid ;
+	width: 21ch;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: typing 2s steps(21), blinking 0.5s infinite step-end alternate;
+}
+
+@keyframes typing{
+	from{
+		width: 0;
+
+	}
+}
+
+@keyframes blinking{
+	50%{
+		border-color: transparent;
+	}
+}
