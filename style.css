@@ -50,12 +50,13 @@ body{
 }
 
 .subtitle{
+	font-size: 130%;
 	margin: auto;
 	border-right: 5px solid ;
-	width: 21ch;
+	width: 22ch;
 	white-space: nowrap;
 	overflow: hidden;
-	animation: typing 2s steps(21), blinking 0.5s infinite step-end alternate;
+	animation: typing 2s steps(22), blinking 0.6s infinite step-end alternate;
 }
 
 @keyframes typing{
