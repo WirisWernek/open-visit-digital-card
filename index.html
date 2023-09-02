@@ -14,94 +14,80 @@
 	<link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
-	<main class="container pt-4">
-		<div class="justify-content-center align-items-center g-2 text-center mb-3">
-			<img src="./images/pictures/profile-image.jpeg" class="profile-image" alt="...">
-			<h2 class="col-12 mt-2">Wiris Wernek</h2>
-			<p class="col-12 subtitle">Backend Web Developer</p>
-		</div>
-		<hr />
-		<div class="row justify-content-center align-items-center g-2 text-center mb-3">
-			<div class="col-3">
-				<a id="whatsappButton" target="_blank"><img src="./images/icons/whatsapp.png" class="whatsapp"></a>
-			</div>
-			<div class="col-3">
-				<a id="emailButton" target="_blank"><img src="./images/icons/email.png" class="email" srcset=""></a>
-			</div>
-			<div class="col-3">
-				<a id="telefoneButton" target="_blank"><img src="./images/icons/telefone.png" class="telefone"
-						srcset=""></a>
-			</div>
-			<div class="col-3">
-				<img onclick="window.print()" src="./images/icons/download.png" class="download" srcset=""></a>
-			</div>
-		</div>
+<body class="container pt-4">
+	<header class="justify-content-center align-items-center g-2 text-center mb-3">
+		<img src="./images/pictures/profile-image.jpeg" class="profile-image" alt="...">
+		<h2 class="col-12 mt-2">Wiris Wernek</h2>
+		<p class="col-12 subtitle">Backend Web Developer</p>
+	</header>
+
+	<hr />
+
+	<main>
+		<nav class="my-2">
+			<ul>
+				<li class="d-inline">
+					<a id="whatsappButton" target="_blank">
+						<img src="./images/icons/whatsapp.png" class="whatsapp">
+					</a>
+				</li>
+				<li class="d-inline">
+					<a id="emailButton" target="_blank">
+						<img src="./images/icons/email.png" class="email" srcset="">
+					</a>
+				</li>
+				<li class="d-inline">
+					<a id="telefoneButton" target="_blank">
+						<img src="./images/icons/telefone.png" class="telefone" srcset="">
+					</a>
+				</li>
+				<li class="d-inline">
+					<img onclick="window.print()" src="./images/icons/download.png" class="download" srcset="">
+				</li>
+			</ul>
+		</nav>
+
 		<hr>
-		<div class="row justify-content-center text-center ">
+
+		<section class="row justify-content-center text-center ">
 			<h4 class="col">Me Siga em Outras Redes</h4>
-		</div>
-		<!-- <hr/> -->
-		<div class="row justify-content-center align-items-center g-2 text-center mt-2">
-			<div class="col-12">
-				<a href="https://www.youtube.com/@wiriswernek " target="_blank">
-					<div class="button">
-						<span class="">Meu Canal No YouTube</span>
-					</div>
-				</a>
-			</div>
-			<div class="col-12">
-				<a href="https://github.com/WirisWernek" target="_blank">
-					<div class="button">
-						<span class="">Veja meu trabalho no GitHub</span>
-					</div>
-				</a>
-			</div>
-			<div class="col-12">
-				<a href="https://www.instagram.com/wiriswernek/" target="_blank">
-					<div class="button">
-						<span class="">Me acompanhe no Instagram</span>
-					</div>
-				</a>
-			</div>
-			<div class="col-12">
-				<a href="https://twitter.com/wiriswernek" target="_blank">
-					<div class="button">
-						<span class="">Me siga no Twitter</span>
-					</div>
-				</a>
-			</div>
-			<div class="col-12">
-				<a href="https://www.twitch.tv/lost905" target="_blank">
-					<div class="button">
-						<span class="">Me siga na Twitch</span>
-					</div>
-				</a>
-			</div>
-			<div class="col-12">
-				<a href="https://www.linkedin.com/in/wiris-wernek/" target="_blank">
-					<div class="button">
-						<span class="">Me encontre no Linkedin</span>
-					</div>
-				</a>
-			</div>
-			<div class="col-12">
-				<a href="./files/Wiris_Rafael_Januario_Wernek.vcf" target="_blank">
-					<div class="button">
-						<span class="">Salve meu Contato</span>
-					</div>
-				</a>
-			</div>
-		</div>
+		</section>
+
+		<section class="row justify-content-center align-items-center g-2 text-center mt-2">
+			<a class="col-12 button" href="https://www.youtube.com/@wiriswernek " target="_blank">
+				<span class="">Meu Canal No YouTube</span>
+			</a>
+
+			<a class="col-12 button" href="https://github.com/WirisWernek" target="_blank">
+				<span class="">Veja meu trabalho no GitHub</span>
+			</a>
+
+			<a class="col-12 button" href="https://www.instagram.com/wiriswernek/" target="_blank">
+				<span class="">Me acompanhe no Instagram</span>
+			</a>
+
+			<a class="col-12 button" href="https://twitter.com/wiriswernek" target="_blank">
+				<span class="">Me siga no Twitter</span>
+			</a>
+
+			<a class="col-12 button" href="https://www.twitch.tv/lost905" target="_blank">
+				<span class="">Me siga na Twitch</span>
+			</a>
+
+			<a class="col-12 button" href="https://www.linkedin.com/in/wiris-wernek/" target="_blank">
+				<span class="">Me encontre no Linkedin</span>
+			</a>
+
+			<a class="col-12 button" href="./files/Wiris_Rafael_Januario_Wernek.vcf" target="_blank">
+				<span class="">Salve meu Contato</span>
+			</a>
+		</section>
 	</main>
 
-	<footer class="container mt-5">
-		<div class="row text-center g-2">
-			<p class="col">
-				Developed by Wiris Wernek
-			</p>
-		</div>
-
+	<footer class="mt-5">
+		<section>
+			<p class="text-center">Developed by Wiris Wernek</p>
+		</section>
 	</footer>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"

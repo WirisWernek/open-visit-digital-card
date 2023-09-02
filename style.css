@@ -21,14 +21,13 @@ a{
 }
 
 .download{
-	height: 15vw;
+	height: 14vw;
 	border-radius: 19%;
 	background-color: #2c6de5af;
 }
 
 .button{
 	height: 15vw;
-	width: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -49,6 +48,10 @@ body{
 	font-family: 'Fira Code', monospace;
 }
 
+ul{
+	list-style-type: none;
+}
+
 .subtitle{
 	font-size: 130%;
 	margin: auto;
@@ -62,7 +65,6 @@ body{
 @keyframes typing{
 	from{
 		width: 0;
-
 	}
 }
 
