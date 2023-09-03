@@ -1,5 +1,5 @@
 const PHONE = "5528999814672";
-const EMAIL = "rafaeljwerne43@gmail.com";
+const EMAIL = "rafaeljwerneck43@gmail.com";
 
 function CarregarLinkWhatsApp() {
   let userAgent = window.navigator.userAgent;
