@@ -42,13 +42,13 @@ body{
         #2E3440 0%,
         #2E3440 12%,
         #00d87e 12%,
-        #00D87D 100%
+        #00d8d8 100%
     );
     height: 100%;
 	color: #2F3435;
 	font-family: 'Fira Code', monospace;
 }
-
+/* #00d8d8 */
 ul{
 	list-style-type: none;
 }
